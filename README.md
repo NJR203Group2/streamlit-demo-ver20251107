@@ -2,9 +2,9 @@
 streamlit-demo
 
 
-# 📊 展覽雷達：雙北展覽空間與文化趨勢地圖 (Exhibition Radar)
+#  展覽雷達：雙北展覽空間與文化趨勢地圖 (Exhibition Radar)
 
-## 💡 專案理念 (Concept)
+##  專案理念 (Concept)
 
 「展覽雷達」是一個基於 Streamlit 框架和地理空間數據 (OSMnx/Folium) 建立的互動式文化資訊平台。
 
@@ -14,7 +14,7 @@ streamlit-demo
 3.  以數據驅動的方式，重新看見雙北的文化創意和生活機能分佈。
 4.  此為一個測試版本
 
-## ✨ 主要功能 (Features)
+##  主要功能 (Features)
 
 * **模糊搜尋與定位：** 支援 `rapidfuzz` 進行展館名稱的模糊搜尋，快速定位目標場館。
 * **互動式地圖探索：** 使用 Folium 繪製地圖，標示展館位置，並根據 OSMnx 數據，繪製周邊設施標記。
@@ -25,7 +25,7 @@ streamlit-demo
 * **展覽詳細資訊：** 顯示選定場館的簡介、Hashtags，並提供**展覽清單**、**數據欄位篩選**與**圖片展示**。
 * **數據與環境分離：** 透過 `.env` 檔案管理敏感路徑，提高程式碼可移植性。
 
-## 🛠️ 使用方式 (Tech Stack)
+##  使用方式 (Tech Stack)
 
 | 類別 | 工具/函式庫 | 用途 |
 | :--- | :--- | :--- |
@@ -36,7 +36,7 @@ streamlit-demo
 | **模糊匹配** | rapidfuzz | 高效的展館名稱模糊搜尋。 |
 | **配置管理** | `python-dotenv` | 讀取環境變數。 |
 
-## ⚠️ 注意事項 (Disclaimer)
+##  注意事項 (Disclaimer)
 
 1.  **專案用途限制：** 本專案僅供學習及研究使用，不得用於任何商業或非法用途。
 2.  **數據來源與版權：** 地圖上的周邊設施數據 (POI) 皆來自 **OpenStreetMap (OSM)**。根據 OSM 授權條款，使用者需遵循 **[ODbL (Open Database License)](https://opendatacommons.org/licenses/odbl/)** 規範。地圖底圖則遵循其版權規定。
