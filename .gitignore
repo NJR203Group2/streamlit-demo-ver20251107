@@ -1,0 +1,28 @@
+# --- 環境變數與配置檔案 ---
+# 包含敏感資訊或本地路徑的環境變數文件，必須忽略
+.env
+
+# --- 數據檔案與結果 ---
+*.csv
+*.xlsx
+*.parquet
+
+# 展覽圖片目錄 (如果圖片檔案太大，建議忽略整個目錄)
+# 假設您的圖片都放在 IMGPATH 指定的目錄下
+/data/images/
+
+# --- Python 環境與編譯 ---
+# 虛擬環境目錄
+venv/
+.venv/
+env/
+__pycache__/
+
+# Python 編譯/腳本產生的檔案
+*.pyc
+# 紀錄虛擬環境依賴的檔案
+pip-wheel-metadata/
+
+# --- Streamlit 相關 ---
+# Streamlit 可能生成的本地設定或快取
+.streamlit/
